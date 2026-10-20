@@ -1,0 +1,33 @@
+{
+  "name": "numguard",
+  "version": "0.1.0",
+  "description": "Your agent can't state a number it didn't compute. Flags every number in an answer that no tool output in the session produced.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./transcript": "./src/transcript.js",
+    "./hook": "./src/hook.js"
+  },
+  "bin": {
+    "numguard": "bin/numguard.js"
+  },
+  "files": ["bin", "src", "skills", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test",
+    "bench": "node bench/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["mcp", "claude-code", "agents", "hallucination", "llm", "numbers", "verification", "guardrails"],
+  "author": "Isaac Bitran",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacbitran/numguard.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1"
+  }
+}

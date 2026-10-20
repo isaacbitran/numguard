@@ -1,0 +1,2 @@
+$ duckdb -c "select sum(mrr_usd) from 'query-result.csv'"
+202856.0

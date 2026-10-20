@@ -1,0 +1,49 @@
+{
+  "seed": 42,
+  "n": 200,
+  "fabricated_recall": 0.916,
+  "false_positive_rate": 0,
+  "by_type": {
+    "correct": {
+      "flagged": 0,
+      "total": 200,
+      "numbers": 1200,
+      "numbersFlagged": 0
+    },
+    "off_by_digit": {
+      "caught": 177,
+      "total": 200,
+      "misses": 23
+    },
+    "swapped_digits": {
+      "caught": 194,
+      "total": 200,
+      "misses": 6
+    },
+    "invented": {
+      "caught": 200,
+      "total": 200,
+      "misses": 0
+    },
+    "wrong_percent": {
+      "caught": 160,
+      "total": 200,
+      "misses": 40
+    },
+    "wrong_rounding": {
+      "caught": 185,
+      "total": 200,
+      "misses": 15
+    },
+    "wrong_row": {
+      "caught": 0,
+      "total": 200,
+      "misses": 200
+    },
+    "derived_sum": {
+      "caught": 200,
+      "total": 200,
+      "misses": 0
+    }
+  }
+}
